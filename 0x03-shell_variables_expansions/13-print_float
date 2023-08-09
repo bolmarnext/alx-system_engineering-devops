@@ -1,2 +1,2 @@
 #!/bin/bash
-pintf '%.2d\n'$NUM
+pintf '%.2f\n'$NUM
