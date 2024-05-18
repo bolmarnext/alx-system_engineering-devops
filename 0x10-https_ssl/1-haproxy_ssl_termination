@@ -41,7 +41,7 @@ frontend bolmarnext-frontend
         default_backend bolmarnext-backend
 
 frontend bolmarnext-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/clickviral.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.bolmarnext.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend bolmarnext-backend
 
